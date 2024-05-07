@@ -1,0 +1,13 @@
+.img {
+  border-radius: 10px;
+  width: 100px;
+  height: 500px;
+  object-fit: cover;
+}
+.img.active {
+  transition: ease-in 1s;
+  border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+}
